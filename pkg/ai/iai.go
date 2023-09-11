@@ -26,6 +26,7 @@ var (
 		&LocalAIClient{},
 		&NoOpAIClient{},
 		&CohereClient{},
+		&FastGptClient{},
 	}
 	Backends = []string{
 		"openai",
@@ -33,6 +34,7 @@ var (
 		"azureopenai",
 		"noopai",
 		"cohere",
+		"fastgpt",
 	}
 )
 
